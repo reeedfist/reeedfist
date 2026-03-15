@@ -1,9 +1,10 @@
 # 💫 About Me:
-HI!, my name is Gustavo and i am an software engineering student, i study on PUC-PR on Curitiba/Paraná/Brazil, i finish my studies in november 2028 and im looking forward to get a master's degree after graduation.
+:diamond_shape_with_a_dot_inside:HI!, my name is Gustavo and i am an software engineering student, i study on PUC-PR on Curitiba/Paraná/Brazil, i finish my studies in november 2028 and im looking forward to get a master's degree after graduation.
 
-I'm currently working as a freelancer developer, looking for a internship to learn more about C#, .NET and any other stack that appears.
+:recycle:I'm currently working as a freelancer developer, looking for a internship to learn more about C#, .NET and any other stack that appears, but in this moment im devoloping with a group of friends a SaaS for fleet management with financial management included.
 
-Fun fact: I like the full time pressure when im on the job...
+
+:medal_military:Fun fact: I like the full time pressure when im on the job...
 
 
 ## 🌐 Socials:
