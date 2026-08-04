@@ -60,14 +60,11 @@ stats card did. It updates automatically every 12 hours. Setup steps are in the 
 
 ## 📊 GitHub Stats
 
-![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=reeedfist&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reeedfist&layout=compact&theme=dark&hide_border=true&cache_seconds=86400)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=reeedfist&theme=dark&hide_border=true)
 
-<!-- Note: the public github-readme-stats.vercel.app demo is shared by millions of profiles and
-occasionally throws "Failed to retrieve contributions" when GitHub's API quota gets hit. It usually
-fixes itself on the next load. If it keeps failing, self-host your own instance (one-click Vercel
-deploy from https://github.com/anuraghazra/github-readme-stats with your own GitHub token) and swap
-the domain above — that removes the shared rate limit entirely. (I also fixed the streak-stats link
-below — it was pointed at the old herokuapp.com domain, which Heroku shut down years ago; the
-project's current domain is streak-stats.demolab.com.) -->
+<!-- Dropped the "Gustavo's GitHub stats" and "Top Languages" cards from github-readme-stats.vercel.app —
+that public instance kept failing with "Failed to retrieve contributions" due to shared rate limits.
+The streak card above uses a different service (streak-stats.demolab.com) and has been reliable.
+If you want the stats/top-langs cards back, self-host your own instance (one-click Vercel deploy from
+https://github.com/anuraghazra/github-readme-stats with your own GitHub token) so you're not sharing
+the public rate limit with millions of other profiles. -->
