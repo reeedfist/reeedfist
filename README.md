@@ -16,6 +16,9 @@ I'm currently working as a freelance developer and looking for an internship to 
 
 ## 💻 Tech Stack
 
+<img src="https://skillicons.dev/icons?i=cs,dotnet,java,swift,js,ts,css,linux,docker,azure,aws,cloudflare,vercel,figma,github&theme=dark" alt="Tech stack icons" />
+
+<!-- Prefer the old badge look? Swap the block above for these shields.io badges instead:
 ![C#](https://img.shields.io/badge/c%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -31,6 +34,7 @@ I'm currently working as a freelance developer and looking for an internship to 
 ![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+-->
 
 ---
 
@@ -44,6 +48,12 @@ I'm currently working as a freelance developer and looking for an internship to 
 
 ## 📊 GitHub Stats
 
-![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=reeedfist&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reeedfist&layout=compact&theme=dark&hide_border=true)
+![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=reeedfist&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reeedfist&layout=compact&theme=dark&hide_border=true&cache_seconds=86400)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=reeedfist&theme=dark&hide_border=true)
+
+<!-- Note: the public github-readme-stats.vercel.app demo is shared by millions of profiles and
+occasionally throws "Failed to retrieve contributions" when GitHub's API quota gets hit. It usually
+fixes itself on the next load. If it keeps failing, self-host your own instance (one-click Vercel
+deploy from https://github.com/anuraghazra/github-readme-stats with your own GitHub token) and swap
+the domain above — that removes the shared rate limit entirely. -->
