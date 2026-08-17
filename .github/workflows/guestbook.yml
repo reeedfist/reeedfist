@@ -1,0 +1,114 @@
+name: 📖 Mural de recados
+
+# Quando alguém abre uma issue pelo template "Deixar um recado", este workflow
+# extrai a mensagem, higieniza o texto, publica no README entre os marcadores
+# GUESTBOOK:START / GUESTBOOK:END, agradece e fecha a issue.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  publicar:
+    if: contains(join(github.event.issue.labels.*.name, ','), 'recado')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Atualizar o mural no README
+        id: mural
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const issue = context.payload.issue;
+            const raw = issue.body || '';
+
+            // Issue Forms geram "### Titulo do campo\n\nvalor"
+            const sections = {};
+            raw.split(/^###\s+/m).slice(1).forEach(chunk => {
+              const nl = chunk.indexOf('\n');
+              if (nl === -1) return;
+              sections[chunk.slice(0, nl).trim().toLowerCase()] = chunk.slice(nl + 1).trim();
+            });
+
+            let msg = sections['sua mensagem'] || sections['mensagem'] || '';
+            if (!msg || /^_no response_$/i.test(msg)) {
+              core.setOutput('status', 'vazio');
+              return;
+            }
+
+            // higienização: tira markdown de imagem/link, junta linhas, escapa HTML
+            msg = msg
+              .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+              .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+              .replace(/https?:\/\/\S+/g, '[link]')
+              .replace(/\r/g, '')
+              .split('\n').map(l => l.trim()).filter(Boolean).join(' ')
+              .replace(/[<>&`|]/g, c => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '`': "'", '|': '\\|' }[c]));
+
+            if (!msg) { core.setOutput('status', 'vazio'); return; }
+            if (msg.length > 220) msg = msg.slice(0, 217) + '...';
+
+            const autor = issue.user.login;
+            const data = new Date().toISOString().slice(0, 10).split('-').reverse().join('/');
+            const entrada = `> ${msg}\n>\n> — [@${autor}](https://github.com/${autor}) · ${data}`;
+
+            const START = '<!-- GUESTBOOK:START -->';
+            const END = '<!-- GUESTBOOK:END -->';
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const s = readme.indexOf(START);
+            const e = readme.indexOf(END);
+            if (s === -1 || e === -1) {
+              core.setFailed('Marcadores GUESTBOOK nao encontrados no README.md');
+              return;
+            }
+
+            let atual = readme.slice(s + START.length, e).trim();
+            if (atual.startsWith('<!--')) atual = '';
+            const entradas = atual ? atual.split(/\n\s*\n/).filter(Boolean) : [];
+            entradas.unshift(entrada);
+
+            const MAX = 5;
+            const mantidas = entradas.slice(0, MAX);
+
+            readme = readme.slice(0, s + START.length)
+                   + '\n\n' + mantidas.join('\n\n') + '\n\n'
+                   + readme.slice(e);
+
+            fs.writeFileSync('README.md', readme);
+            core.setOutput('status', 'ok');
+
+      - name: Commitar
+        if: steps.mural.outputs.status == 'ok'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && exit 0
+          git commit -m "feat: novo recado de @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Responder e fechar a issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ok = '${{ steps.mural.outputs.status }}' === 'ok';
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: ok
+                ? `Valeu pelo recado, @${context.payload.issue.user.login}! 🙌\n\nJá está publicado no mural do perfil: https://github.com/${context.repo.owner}`
+                : `Oi @${context.payload.issue.user.login}! Não consegui ler nenhuma mensagem nessa issue. Tenta de novo pelo formulário: https://github.com/${context.repo.owner}/${context.repo.repo}/issues/new?template=recado.yml`
+            });
+            await github.rest.issues.update({
+              ...context.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
