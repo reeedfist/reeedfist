@@ -1,32 +1,33 @@
-name: generate snake animation
+name: 🐍 Contribution snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
-  workflow_dispatch: {}
+    - cron: "0 */12 * * *"   # a cada 12 horas
+  workflow_dispatch: {}      # botão "Run workflow" na aba Actions
   push:
-    branches:
-      - main
+    branches: [main]
+
+permissions:
+  contents: write            # sem isto o push para a branch "output" falha com 403
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: generate snake svg
+      - name: Gerar SVGs da cobrinha
         uses: Platane/snk@v3
-        id: snake-gif
+        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push svg to the output branch
+      - name: Publicar na branch "output"
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: atualiza animacao da cobrinha"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
