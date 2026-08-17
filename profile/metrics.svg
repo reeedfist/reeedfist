@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240" role="img" aria-label="Metrics sendo gerado">
+  <rect width="495" height="240" rx="10" fill="#0D1117"/>
+  <text x="247.5" y="106" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="600" fill="#00E5A0">Metrics card</text>
+  <text x="247.5" y="134" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#8B949E">requer o secret METRICS_TOKEN (passo 5 do SETUP.md)</text>
+  <text x="247.5" y="156" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#8B949E">depois disso este SVG é substitu&#237;do automaticamente</text>
+</svg>
