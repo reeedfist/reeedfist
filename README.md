@@ -177,7 +177,7 @@ Aplicação para não deixar passar horário de remédio. Um projeto pequeno, ma
 
 Site institucional desenvolvido como desafio técnico em processo seletivo de estágio.
 
-➜ [Ver repositório](https://github.com/reeedfist/NavarroCapital)
+*Repositório privado — posso abrir o código em uma conversa.*
 
 </details>
 
@@ -196,17 +196,23 @@ Site institucional desenvolvido como desafio técnico em processo seletivo de es
 
 <div align="center">
 
-<!-- Estes SVGs são gerados por GitHub Actions e commitados neste próprio repositório.
-     Nada é buscado de servidor de terceiros na hora que alguém abre o perfil,
-     então não quebram por rate limit como os cards antigos quebravam. -->
-
-<img src="./profile/streak.svg" alt="GitHub streak" width="500" />
-
-<br/><br/>
-
-<img src="./profile/metrics.svg" alt="GitHub metrics" width="500" />
+<img src="https://streak-stats.demolab.com/?user=reeedfist&theme=dark&hide_border=true&border_radius=8&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&locale=pt_BR" alt="Sequência de contribuições" width="500" />
 
 </div>
+
+<!-- NOTA TÉCNICA (não aparece para quem visita)
+
+     O card acima vem de streak-stats.demolab.com, que funciona sem GitHub Actions.
+     Foi escolhido porque:
+       - github-readme-stats.vercel.app está FORA DO AR de vez (503, "deployment paused by the owner")
+       - os SVGs auto-gerados em profile/ dependem de Actions, que estão bloqueados
+         nesta conta por pendência de cobrança
+
+     Quando os Actions voltarem a rodar, o caminho mais robusto é trocar a linha acima por:
+       <img src="./profile/streak.svg" alt="Sequência de contribuições" width="500" />
+     e rodar o workflow "Streak stats" uma vez. Aí nada é buscado de terceiros no
+     carregamento do perfil e o card não depende de nenhum serviço externo continuar de pé.
+-->
 
 ---
 
