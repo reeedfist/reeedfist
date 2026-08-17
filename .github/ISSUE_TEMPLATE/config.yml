@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🗣️ Puxar assunto (Discussions)
+    url: https://github.com/reeedfist/reeedfist/discussions
+    about: Conversa aberta, dúvida ou papo sobre carreira e tecnologia.
+  - name: 💼 LinkedIn
+    url: https://www.linkedin.com/in/SEU-HANDLE-AQUI
+    about: Prefere rede social? Me chama por lá.
+  - name: 📧 E-mail
+    url: mailto:araujodepaulagustavo@gmail.com
+    about: Contato direto para assuntos mais formais.
