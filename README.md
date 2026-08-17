@@ -219,7 +219,7 @@ Site institucional desenvolvido como desafio técnico em processo seletivo de es
 
      PARA REATIVAR, depois de regularizar a cobrança:
        1. Actions > "🐍 Contribution snake" > Run workflow (espere ~1 min)
-       2. apague esta linha de comentário e o "-->" lá embaixo
+       2. apague este bloco de abertura e o fechamento de comentário lá embaixo
 
 ## 🐍 Contribution Snake
 
