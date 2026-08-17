@@ -1,0 +1,27 @@
+name: ✍️ Deixar um recado no mural
+description: Escreva algo no mural do meu perfil — aparece automaticamente no README.
+title: "[recado] "
+labels: ["recado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por passar aqui! Escreva sua mensagem abaixo e clique em **Create**.
+        Um robô publica o recado no meu perfil em cerca de um minuto e fecha esta issue sozinho.
+
+  - type: textarea
+    id: mensagem
+    attributes:
+      label: Sua mensagem
+      description: Até 220 caracteres. Links e imagens são removidos automaticamente.
+      placeholder: "Passei pra dizer que o projeto X me ajudou muito!"
+    validations:
+      required: true
+
+  - type: input
+    id: quem
+    attributes:
+      label: Quem é você? (opcional)
+      placeholder: "Dev backend, estudante, recrutadora..."
+    validations:
+      required: false
