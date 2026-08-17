@@ -1,0 +1,46 @@
+name: 💼 Falar sobre uma vaga ou freela
+description: Estágio, freelance ou projeto — me conte o que você tem em mente.
+title: "[oportunidade] "
+labels: ["oportunidade"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Estou aberto a **estágio**, **freelance** e projetos open source.
+        Prefere e-mail? araujodepaulagustavo@gmail.com — mas por aqui eu respondo rápido também.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de oportunidade
+      options:
+        - Estágio
+        - Freelance / projeto pontual
+        - CLT / PJ
+        - Colaboração open source
+        - Outro
+    validations:
+      required: true
+
+  - type: input
+    id: empresa
+    attributes:
+      label: Empresa ou projeto
+    validations:
+      required: false
+
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes
+      description: Stack, formato (remoto/híbrido/presencial), prazo e qualquer coisa relevante.
+    validations:
+      required: true
+
+  - type: input
+    id: contato
+    attributes:
+      label: Melhor forma de te responder
+      placeholder: "e-mail, LinkedIn, WhatsApp..."
+    validations:
+      required: true
