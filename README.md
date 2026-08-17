@@ -196,7 +196,7 @@ Site institucional desenvolvido como desafio técnico em processo seletivo de es
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=reeedfist&theme=dark&hide_border=true&border_radius=8&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&locale=pt_BR" alt="Sequência de contribuições" width="500" />
+<img src="https://streak-stats.demolab.com/?user=reeedfist&theme=dark&hide_border=true&border_radius=8&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&locale=pt_BR&disable_animations=true" alt="Sequência de contribuições" width="500" />
 
 </div>
 
