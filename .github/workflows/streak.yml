@@ -1,0 +1,36 @@
+name: 🔥 Streak stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"      # todo dia às 03:00 em Curitiba (06:00 UTC)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/streak.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar SVG do streak
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&theme=dark&hide_border=true&border_radius=8&locale=pt_BR&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&card_width=495
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commitar SVG
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git diff --staged --quiet && echo "nada mudou" && exit 0
+          git commit -m "chore: atualiza streak stats"
+          git push
