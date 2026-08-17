@@ -1,0 +1,32 @@
+name: 💡 Sugerir projeto, curso ou trilha
+description: Indique algo que valha a pena estudar ou construir — principalmente em segurança.
+title: "[sugestão] "
+labels: ["sugestao"]
+body:
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - Cibersegurança (trilha, lab, certificação)
+        - C# / .NET / arquitetura
+        - Ideia de projeto para eu construir
+        - Feedback sobre um repositório meu
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Sua sugestão
+      description: Link, nome do curso, ideia de projeto — o que vier.
+    validations:
+      required: true
+
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por que você recomenda?
+    validations:
+      required: false
