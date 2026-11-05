@@ -1,277 +1,75 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0f2027,50:203a43,100:2c5364&text=Gustavo%20Araujo&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Software%20Engineering%20@%20PUCPR%20%E2%80%A2%20.NET%20%E2%80%A2%20Next%20stop:%20Cybersecurity&descAlignY=54&descSize=15&animation=fadeIn" alt="header" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=00E5A0&center=true&vCenter=true&width=720&lines=C%23+%2F+.NET+developer+in+the+making;Building+a+fleet-management+SaaS+with+friends;DDD+%2B+Vertical+Slice+%2B+SOLID;Next+stop%3A+Cybersecurity+%F0%9F%94%90;Open+to+internships+%E2%80%94+let's+talk!" alt="typing" />
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-HANDLE-AQUI)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:araujodepaulagustavo@gmail.com)
-![Curitiba](https://img.shields.io/badge/Curitiba,%20PR-1B7A3E?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Profile views](https://komarev.com/ghpvc/?username=reeedfist&style=for-the-badge&color=00E5A0&label=VISITORS)
-
+  <h1>Gustavo Araujo 👋</h1>
+  <p><strong>C# / .NET Developer · Backend Development</strong><br>Growing into Application Security</p>
+  <p><code>C#</code> <code>.NET</code> <code>PostgreSQL</code> <code>Docker</code></p>
+  <p><a href="mailto:araujodepaulagustavo@gmail.com">Email</a> · Curitiba, Brazil · PUCPR</p>
 </div>
 
----
+<hr>
 
-<div align="center">
+<h2>👨‍💻 About me</h2>
 
-### 👇 Este perfil é interativo — clique nas setinhas para abrir cada seção
+<p>Hi! I'm Gustavo, a <strong>Software Engineering student at PUCPR</strong>, with graduation expected in <strong>November 2027</strong>. I work as a freelance developer and focus on backend development with <strong>C# and .NET</strong>.</p>
 
-</div>
+<p>I'm building on that development background to deepen my understanding of application security: how systems handle identity, enforce access rules and protect data.</p>
 
-<details>
-<summary><b>🇧🇷 Sobre mim (Português)</b></summary>
-<br/>
+<p>I'm interested in <strong>internships, freelance work and open-source collaboration</strong>, particularly around .NET backend development.</p>
 
-Olá! Sou o **Gustavo**, estudante de Engenharia de Software na **PUC-PR** (Curitiba/PR), com formatura prevista para **novembro de 2027** — e planos de emendar um mestrado logo depois.
+<h2>🛠️ Technical focus</h2>
 
-Hoje trabalho como **dev freelancer** e busco um **estágio** para aprofundar C#, .NET e qualquer stack que aparecer no caminho. Em paralelo, estou construindo com um grupo de amigos um **SaaS de gestão de frotas** com controle financeiro integrado.
+<table>
+  <thead><tr><th>Area</th><th>Technologies &amp; topics</th></tr></thead>
+  <tbody>
+    <tr><td>Backend</td><td>C# · .NET · Entity Framework Core</td></tr>
+    <tr><td>Data &amp; tooling</td><td>PostgreSQL · Docker · Git</td></tr>
+    <tr><td>Architecture studies</td><td>Domain-Driven Design · Vertical Slice · SOLID</td></tr>
+  </tbody>
+</table>
 
-O próximo capítulo é **cibersegurança**: estou estudando fundamentos de redes, hardening e blue team para migrar de "dev que se preocupa com segurança" para "profissional de segurança que sabe programar".
+<h2>🧭 Current focus</h2>
 
-> 🏆 *Fun fact:* trabalho melhor sob pressão — prazo apertado me deixa mais focado, não menos.
+<ul>
+  <li>Deepening my C# and .NET knowledge.</li>
+  <li>Building maintainable APIs with clear responsibilities.</li>
+  <li>Learning to test expected behavior, edge cases and denied access.</li>
+  <li>Explaining engineering decisions and trade-offs through documentation.</li>
+</ul>
 
-</details>
+<h2>🔐 From backend to application security</h2>
 
-<details>
-<summary><b>🇺🇸 About me (English)</b></summary>
-<br/>
-
-Hi! I'm **Gustavo**, a Software Engineering student at **PUC-PR** in Curitiba, Brazil, graduating in **November 2027**, with a master's degree on the roadmap right after.
-
-I currently work as a **freelance developer** and I'm looking for an **internship** to go deeper into C#, .NET and whatever stack comes my way. On the side, I'm building a **fleet-management SaaS** with integrated financial tracking together with a group of friends.
-
-Next chapter: **cybersecurity**. I'm studying networking fundamentals, hardening and blue-team practices to move from "a dev who cares about security" to "a security professional who can code".
-
-> 🏆 *Fun fact:* I thrive under pressure — a tight deadline makes me sharper, not slower.
-
-</details>
+<p>My next step is to connect software development with security practice, starting with authentication, authorization, input validation and safe logging.</p>
 
 <details>
-<summary><b>🧭 No que estou trabalhando agora / What I'm doing now</b></summary>
-<br/>
-
-| | |
-|---|---|
-| 🔭 **Construindo** | SaaS de gestão de frotas (.NET + Vertical Slice) |
-| 🌱 **Estudando** | C# avançado, DDD, fundamentos de redes e segurança |
-| 🎯 **Meta 2026** | Fechar um estágio e a primeira certificação de segurança |
-| 💬 **Pergunte sobre** | C#, .NET, arquitetura, faculdade de Eng. de Software |
-| ⚡ **Disponível para** | Estágio, freelance e projetos open source |
-
+  <summary><strong>Learning roadmap</strong></summary>
+  <br>
+  <p><strong>Foundations covered</strong></p>
+  <ul>
+    <li>Networking fundamentals: TCP/IP, DNS and HTTP/HTTPS.</li>
+    <li>Linux basics and the command line.</li>
+  </ul>
+  <p><strong>Next learning priorities</strong></p>
+  <ul>
+    <li>Authentication, authorization and access-control testing.</li>
+    <li>Applied cryptography: hashing, TLS and PKI.</li>
+    <li>Input validation, safe error handling and logging.</li>
+    <li>Hands-on security exercises in isolated environments.</li>
+  </ul>
 </details>
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,java,swift,js,ts,html,css,linux,docker,postgres,azure,aws,cloudflare,vercel,figma,git,github&theme=dark&perline=9" alt="tech stack" />
-
-</div>
+<br>
 
 <details>
-<summary><b>📂 Ver stack detalhada por categoria</b></summary>
-<br/>
-
-**Linguagens**
-
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-
-**Backend & Dados**
-
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Cloud & Infra**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**Arquitetura & Práticas**
-
-![DDD](https://img.shields.io/badge/Domain--Driven_Design-4B0082?style=flat-square)
-![Vertical Slice](https://img.shields.io/badge/Vertical_Slice_Architecture-2E8B57?style=flat-square)
-![SOLID](https://img.shields.io/badge/SOLID-CC3333?style=flat-square)
-![Clean Code](https://img.shields.io/badge/Clean_Code-555555?style=flat-square)
-
+  <summary><strong>🇧🇷 Sobre mim em português</strong></summary>
+  <br>
+  <p>Sou o Gustavo, estudante de <strong>Engenharia de Software na PUCPR</strong>, em Curitiba, com formatura prevista para <strong>novembro de 2027</strong>. Trabalho como desenvolvedor freelancer e meu foco é backend com <strong>C# e .NET</strong>.</p>
+  <p>Estou aprofundando minha base em desenvolvimento e estudando segurança de aplicações, especialmente autenticação, autorização, validação de entradas e proteção de dados.</p>
+  <p>Tenho interesse em estágio, projetos freelance e colaboração open source na área de desenvolvimento.</p>
 </details>
 
----
+<hr>
 
-## 🔐 Road to Cybersecurity
+<h2>💬 Let's connect</h2>
 
-<details open>
-<summary><b>Meu roadmap público — atualizado conforme avanço</b></summary>
-<br/>
+<p>Have a development opportunity or want to exchange ideas about .NET and secure software?</p>
 
-**Fundamentos**
-
-- [x] Redes: TCP/IP, DNS, HTTP/HTTPS
-- [x] Linux básico e linha de comando
-- [ ] Criptografia aplicada (hashing, TLS, PKI)
-- [ ] Windows internals & Active Directory
-
-**Prática**
-
-- [ ] TryHackMe — trilha *Pre Security*
-- [ ] TryHackMe — trilha *Cyber Security 101*
-- [ ] Hack The Box — 10 máquinas easy
-- [ ] Lab próprio: SIEM caseiro (Wazuh + ELK)
-
-**Certificações (alvo)**
-
-- [ ] CompTIA Security+
-- [ ] Blue Team Level 1 (BTL1)
-
-<!-- Quando criar suas contas, descomente os badges abaixo trocando o usuário:
-![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/SEU-USUARIO.png)
--->
-
-> 💡 Tem uma sugestão de trilha, curso ou lab? [Manda aqui](https://github.com/reeedfist/reeedfist/issues/new?template=sugestao.yml) — leio todas.
-
-</details>
-
----
-
-## 📌 Projetos em destaque
-
-<details>
-<summary><b>🚚 Fleet SaaS — gestão de frotas com controle financeiro</b></summary>
-<br/>
-
-Plataforma que junta operação de frota e financeiro no mesmo lugar. Construída em .NET seguindo **Vertical Slice Architecture** e **DDD**, com foco em manter cada feature isolada e testável.
-
-`.NET` `PostgreSQL` `Docker` `DDD` `Vertical Slice`
-
-*Repositório privado por enquanto — posso apresentar o projeto em uma conversa.*
-
-</details>
-
-<details>
-<summary><b>💊 Reminder — lembrete de medicamentos</b></summary>
-<br/>
-
-Aplicação para não deixar passar horário de remédio. Um projeto pequeno, mas que resolve um problema real de gente próxima.
-
-➜ [Ver repositório](https://github.com/reeedfist/Reminder)
-
-</details>
-
-<details>
-<summary><b>🏢 NavarroCapital — projeto de avaliação de estágio</b></summary>
-<br/>
-
-Site institucional desenvolvido como desafio técnico em processo seletivo de estágio.
-
-*Repositório privado — posso abrir o código em uma conversa.*
-
-</details>
-
-<details>
-<summary><b>🎓 Estudos — C#, algoritmos e faculdade</b></summary>
-<br/>
-
-➜ [C--Studies](https://github.com/reeedfist/C--Studies) — anotações e exercícios de C#/.NET
-➜ [Projeto-Final-Conectivos](https://github.com/reeedfist/Projeto-Final-Conectivos) — projeto final em Python
-
-</details>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="./profile/streak.svg" alt="Sequência de contribuições" width="500" />
-
-</div>
-
-<!-- NOTA TÉCNICA (não aparece para quem visita)
-
-     O card acima vem de streak-stats.demolab.com, que funciona sem GitHub Actions.
-     Foi escolhido porque:
-       - github-readme-stats.vercel.app está FORA DO AR de vez (503, "deployment paused by the owner")
-       - os SVGs auto-gerados em profile/ dependem de Actions, que estão bloqueados
-         nesta conta por pendência de cobrança
-
-     Quando os Actions voltarem a rodar, o caminho mais robusto é trocar a linha acima por:
-       <img src="./profile/streak.svg" alt="Sequência de contribuições" width="500" />
-     e rodar o workflow "Streak stats" uma vez. Aí nada é buscado de terceiros no
-     carregamento do perfil e o card não depende de nenhum serviço externo continuar de pé.
--->
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════════════
-     🐍 CONTRIBUTION SNAKE — seção desativada temporariamente
-
-     O GitHub Actions está bloqueado nesta conta por uma pendência de cobrança
-     ("your account is locked due to a billing issue"), então a branch `output`
-     com os SVGs da cobrinha não é gerada e a imagem apareceria quebrada.
-
-     PARA REATIVAR, depois de regularizar a cobrança:
-       1. Actions > "🐍 Contribution snake" > Run workflow (espere ~1 min)
-       2. apague este bloco de abertura e o fechamento de comentário lá embaixo
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reeedfist/reeedfist/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reeedfist/reeedfist/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/reeedfist/reeedfist/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-     ══════════════════════════════════════════════════════════════════════════ -->
-
-## 💬 Interaja comigo
-
-<div align="center">
-
-**Clique em um botão abaixo — abre uma issue já preenchida, é só escrever e enviar.**
-
-<br/>
-
-[![Deixar recado](https://img.shields.io/badge/%E2%9C%8D%EF%B8%8F_Deixar_um_recado_no_mural-00E5A0?style=for-the-badge&logoColor=black)](https://github.com/reeedfist/reeedfist/issues/new?template=recado.yml)
-[![Oportunidade](https://img.shields.io/badge/%F0%9F%92%BC_Falar_sobre_uma_vaga-0A66C2?style=for-the-badge&logoColor=white)](https://github.com/reeedfist/reeedfist/issues/new?template=oportunidade.yml)
-
-[![Sugestão](https://img.shields.io/badge/%F0%9F%92%A1_Sugerir_projeto_ou_estudo-F59E0B?style=for-the-badge&logoColor=black)](https://github.com/reeedfist/reeedfist/issues/new?template=sugestao.yml)
-[![Discussions](https://img.shields.io/badge/%F0%9F%97%A3%EF%B8%8F_Puxar_assunto-6E5494?style=for-the-badge&logo=github&logoColor=white)](https://github.com/reeedfist/reeedfist/discussions)
-
-</div>
-
-### 📖 Mural de recados
-
-> Os últimos recados aparecem aqui automaticamente. Deixe o seu no botão acima. 👆
-
-<!-- GUESTBOOK:START -->
-<!-- Nenhum recado ainda — seja o primeiro! -->
-<!-- GUESTBOOK:END -->
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=110&color=0:2c5364,50:203a43,100:0f2027" alt="footer" />
-
-<sub>Obrigado por passar aqui. Se algo neste perfil te foi útil, uma ⭐ em algum repositório já faz o dia. 🚀</sub>
-
-</div>
+<p><a href="mailto:araujodepaulagustavo@gmail.com"><strong>Send me an email →</strong></a></p>
