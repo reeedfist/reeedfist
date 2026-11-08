@@ -1,75 +1,59 @@
-<div align="center">
-  <h1>Gustavo Araujo 👋</h1>
-  <p><strong>C# / .NET Developer · Backend Development</strong><br>Growing into Application Security</p>
-  <p><code>C#</code> <code>.NET</code> <code>PostgreSQL</code> <code>Docker</code></p>
-  <p><a href="mailto:araujodepaulagustavo@gmail.com">Email</a> · Curitiba, Brazil · PUCPR</p>
-</div>
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Gustavo Araujo — Backend / .NET">
+</p>
 
-<hr>
+<p align="center"><strong>Building with C# and .NET. Learning to make software more secure.</strong></p>
 
-<h2>👨‍💻 About me</h2>
+<p align="center">Software Engineering @ PUCPR · Curitiba, Brazil<br><a href="mailto:araujodepaulagustavo@gmail.com">Let's talk ↗</a></p>
 
-<p>Hi! I'm Gustavo, a <strong>Software Engineering student at PUCPR</strong>, with graduation expected in <strong>November 2027</strong>. I work as a freelance developer and focus on backend development with <strong>C# and .NET</strong>.</p>
+<h2>A little about me</h2>
 
-<p>I'm building on that development background to deepen my understanding of application security: how systems handle identity, enforce access rules and protect data.</p>
+<p>I'm Gustavo, a freelance developer and Software Engineering student, graduating in <strong>November 2027</strong>. My focus is <strong>backend development with C# and .NET</strong>, with a growing interest in application security.</p>
 
-<p>I'm interested in <strong>internships, freelance work and open-source collaboration</strong>, particularly around .NET backend development.</p>
+<p>I'm looking for opportunities to build useful software, learn with a team and deepen my engineering skills.</p>
 
-<h2>🛠️ Technical focus</h2>
+<h2>My toolbox</h2>
 
-<table>
-  <thead><tr><th>Area</th><th>Technologies &amp; topics</th></tr></thead>
-  <tbody>
-    <tr><td>Backend</td><td>C# · .NET · Entity Framework Core</td></tr>
-    <tr><td>Data &amp; tooling</td><td>PostgreSQL · Docker · Git</td></tr>
-    <tr><td>Architecture studies</td><td>Domain-Driven Design · Vertical Slice · SOLID</td></tr>
-  </tbody>
-</table>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/CS.svg" width="44" height="44" alt="C#">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/DotNet.svg" width="44" height="44" alt=".NET">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Java-Dark.svg" width="44" height="44" alt="Java">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Swift.svg" width="44" height="44" alt="Swift">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/JavaScript.svg" width="44" height="44" alt="JavaScript">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/TypeScript.svg" width="44" height="44" alt="TypeScript">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/HTML.svg" width="44" height="44" alt="HTML">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/CSS.svg" width="44" height="44" alt="CSS">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Linux-Dark.svg" width="44" height="44" alt="Linux">
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Docker.svg" width="44" height="44" alt="Docker">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/PostgreSQL-Dark.svg" width="44" height="44" alt="PostgreSQL">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Azure-Dark.svg" width="44" height="44" alt="Azure">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/AWS-Dark.svg" width="44" height="44" alt="AWS">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Cloudflare-Dark.svg" width="44" height="44" alt="Cloudflare">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Vercel-Dark.svg" width="44" height="44" alt="Vercel">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Figma-Dark.svg" width="44" height="44" alt="Figma">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Git.svg" width="44" height="44" alt="Git">
+  <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@7f7e691/icons/Github-Dark.svg" width="44" height="44" alt="GitHub">
+</p>
 
-<h2>🧭 Current focus</h2>
+<p><strong>Also working with:</strong> Entity Framework Core.<br><strong>Architecture studies:</strong> DDD, Vertical Slice and SOLID.</p>
+
+<h2>What I'm exploring</h2>
 
 <ul>
-  <li>Deepening my C# and .NET knowledge.</li>
-  <li>Building maintainable APIs with clear responsibilities.</li>
-  <li>Learning to test expected behavior, edge cases and denied access.</li>
-  <li>Explaining engineering decisions and trade-offs through documentation.</li>
+  <li><strong>Backend engineering</strong> — maintainable APIs and meaningful tests.</li>
+  <li><strong>Application security</strong> — authentication, authorization and input validation.</li>
+  <li><strong>Foundations</strong> — networking, Linux and applied cryptography.</li>
 </ul>
 
-<h2>🔐 From backend to application security</h2>
-
-<p>My next step is to connect software development with security practice, starting with authentication, authorization, input validation and safe logging.</p>
-
 <details>
-  <summary><strong>Learning roadmap</strong></summary>
+  <summary><strong>🇧🇷 Um pouco sobre mim</strong></summary>
   <br>
-  <p><strong>Foundations covered</strong></p>
-  <ul>
-    <li>Networking fundamentals: TCP/IP, DNS and HTTP/HTTPS.</li>
-    <li>Linux basics and the command line.</li>
-  </ul>
-  <p><strong>Next learning priorities</strong></p>
-  <ul>
-    <li>Authentication, authorization and access-control testing.</li>
-    <li>Applied cryptography: hashing, TLS and PKI.</li>
-    <li>Input validation, safe error handling and logging.</li>
-    <li>Hands-on security exercises in isolated environments.</li>
-  </ul>
-</details>
-
-<br>
-
-<details>
-  <summary><strong>🇧🇷 Sobre mim em português</strong></summary>
-  <br>
-  <p>Sou o Gustavo, estudante de <strong>Engenharia de Software na PUCPR</strong>, em Curitiba, com formatura prevista para <strong>novembro de 2027</strong>. Trabalho como desenvolvedor freelancer e meu foco é backend com <strong>C# e .NET</strong>.</p>
-  <p>Estou aprofundando minha base em desenvolvimento e estudando segurança de aplicações, especialmente autenticação, autorização, validação de entradas e proteção de dados.</p>
-  <p>Tenho interesse em estágio, projetos freelance e colaboração open source na área de desenvolvimento.</p>
+  <p>Sou o Gustavo, desenvolvedor freelancer e estudante de Engenharia de Software na PUCPR, em Curitiba, com formatura prevista para novembro de 2027.</p>
+  <p>Meu foco é backend com C# e .NET. Estou aprofundando minha base em engenharia de software e estudando segurança de aplicações.</p>
+  <p>Busco oportunidades para construir software útil, aprender com uma equipe e evoluir tecnicamente.</p>
 </details>
 
 <hr>
 
-<h2>💬 Let's connect</h2>
-
-<p>Have a development opportunity or want to exchange ideas about .NET and secure software?</p>
-
-<p><a href="mailto:araujodepaulagustavo@gmail.com"><strong>Send me an email →</strong></a></p>
+<p align="center"><strong>Open to internships, freelance work &amp; open-source collaboration.</strong><br><a href="mailto:araujodepaulagustavo@gmail.com">araujodepaulagustavo@gmail.com</a></p>
