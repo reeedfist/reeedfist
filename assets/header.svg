@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248" role="img" aria-labelledby="title desc">
+<title id="title">Gustavo Araujo — Backend / .NET</title>
+<desc id="desc">Purple geometric banner with Gustavo's name and backend development focus.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#211333"/><stop offset=".6" stop-color="#36204e"/><stop offset="1" stop-color="#171123"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#b08aff"/><stop offset="1" stop-color="#77e5ce"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d4baff" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="960" height="248" rx="12" fill="url(#bg)"/>
+<rect width="960" height="248" rx="12" fill="url(#grid)"/>
+<path d="M790 0H960V248H860V200H820V152H780V104H740V56H790Z" fill="#a277d6" opacity=".10"/>
+<path d="M904 24H936V56H904Z M872 56H904V88H872Z M904 88H936V120H904Z M840 24H872V56H840Z" fill="#b994ed" opacity=".32"/>
+<rect x="40" y="48" width="5" height="142" rx="2" fill="url(#edge)"/>
+<text x="70" y="116" fill="#f5edff" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Gustavo Araujo</text>
+<text x="73" y="177" fill="#c5abdF" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="400">Backend / .NET</text>
+<path d="M40 225H920" stroke="url(#edge)" stroke-opacity=".45"/>
+</svg>
